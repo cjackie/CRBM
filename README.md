@@ -12,3 +12,7 @@ binary numbers.
 
 For data far away from 0 (i.e. mean of data is greater than 3). Normalize 
 the data before using CRBM, so that the data are centered on 0, with a variance 1.
+
+### Features
+Features(hidden) obtained from CRBM can be very noisy. consider denoising by 
+using moving average window.
